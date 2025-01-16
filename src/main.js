@@ -1,6 +1,6 @@
 import "./style.css";
 
-import Experience from "./Voronoi/Experience";
+import Experience from "./Egg/Experience";
 
 const canvas = document.querySelector("#app");
 

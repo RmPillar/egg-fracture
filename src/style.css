@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 canvas {
   position: fixed;
   top: 0px;
@@ -9,4 +14,15 @@ canvas {
   height: 100%;
 
   cursor: none;
+}
+
+.scrollContainer {
+  width: 100vw;
+  height: 200vh;
+}
+
+.tp-dfwv {
+  position: fixed !important;
+
+  z-index: 99999;
 }

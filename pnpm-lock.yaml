@@ -4,6 +4,12 @@ dependencies:
   gsap:
     specifier: ^3.12.7
     version: 3.12.7
+  postprocessing:
+    specifier: ^6.36.6
+    version: 6.36.6(three@0.172.0)
+  stats-gl:
+    specifier: ^3.6.0
+    version: 3.6.0(three@0.172.0)
   three:
     specifier: ^0.172.0
     version: 0.172.0
@@ -439,6 +445,14 @@ packages:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  /postprocessing@6.36.6(three@0.172.0):
+    resolution: {integrity: sha512-mjJjoXbC97XMV6iQVhOZYNjD5X93o3+/zpYm9oRmsyjP3LjfwedT8PgusECTk+s5DZeZoJ8vA9htdWuH8JH+mQ==}
+    peerDependencies:
+      three: '>= 0.157.0 < 0.173.0'
+    dependencies:
+      three: 0.172.0
+    dev: false
+
   /rollup@4.30.1:
     resolution: {integrity: sha512-mlJ4glW020fPuLi7DkM/lN97mYEZGWeqBnrljzN0gs7GLctqX3lNWxKQ7Gl712UAX+6fog/L3jh4gb7R6aVi3w==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -470,6 +484,17 @@ packages:
   /source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
+
+  /stats-gl@3.6.0(three@0.172.0):
+    resolution: {integrity: sha512-Bpi5nwvC2pls9lcI5sGqAcUqB/2kMYfsR4KoAglXFtY3YUdm7lJFg8FqS7eKKNgg3ruDMNCuwU+uRwPOwJiGnw==}
+    peerDependencies:
+      three: '*'
+    peerDependenciesMeta:
+      three:
+        optional: true
+    dependencies:
+      three: 0.172.0
+    dev: false
 
   /three@0.172.0:
     resolution: {integrity: sha512-6HMgMlzU97MsV7D/tY8Va38b83kz8YJX+BefKjspMNAv0Vx6dxMogHOrnRl/sbMIs3BPUKijPqDqJ/+UwJbIow==}
